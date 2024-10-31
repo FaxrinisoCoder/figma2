@@ -303,9 +303,9 @@ body{
     font-size: 2rem;
     color:var(--accent-color);
     margin-top: 2rem;
-    transition: 0.2s margin-left;
 }
 .super_link::after{
+    transition: 0.2s margin-left;
     content: "-->"; 
     margin-left: 6px;
 }
@@ -322,7 +322,7 @@ body{
 
 }
 .box{
-    transition: transform 0.3s;
+    transition: 0.3s all linear;
     
     scale: 0.9;
     border-radius: 10px ;
@@ -451,9 +451,7 @@ width: 50px;
     .flex {
         width: 48%;
     }
-    .pic2 {
-        width: 48%;
-    }
+   
     .super{
     display: flex;
     justify-content: space-between;
